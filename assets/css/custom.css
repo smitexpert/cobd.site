@@ -1,0 +1,151 @@
+.flaticon::before {
+    margin: 0;
+}
+
+.header {
+    height: 100vh;
+    width: 100%;
+    background-color: #000000;;
+    background: linear-gradient(to bottom,#051322,#15457c);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    z-index: 999;
+}
+
+nav.bg-white {
+    background-color: #ffffff;
+    border-bottom: 0.5px solid #d3d3d3;
+}
+
+
+nav .logo {
+    height: 60px;
+    width: auto;
+    margin: 10px 0;
+}
+
+nav.bg-white .logo {
+    height: 60px;
+    width: auto;
+    margin: 10px 0;
+}
+
+nav .logo img {
+    width: auto;
+    height: 100%;
+}
+
+nav .menu {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    height: 80px;
+    align-items: center;
+}
+
+nav .menu li a {
+    color: #ffffff;
+    padding: 30px 20px;
+    display: block;
+    border-bottom: 1px solid rgba(000, 000, 000, 0.0);
+}
+
+nav.bg-white .menu li a {
+    color: #000000;
+}
+
+nav .menu li a:hover {
+    text-decoration: none;
+    border-bottom: 1px solid #ffffff;
+}
+
+nav.bg-white .menu li a:hover {
+    border-bottom: 1px solid #000000;
+}
+
+section {
+    width: 100%;
+    height: auto;
+}
+
+section .heading {
+    text-align: center;
+    max-width: 860px;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+section .heading h3 {
+    font-size: 48px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+section .heading p {
+    font-size: 24px;
+    font-weight: 200;
+}
+
+.services_section {
+    margin: 60px 0;
+}
+
+.services_section a:hover {
+    text-decoration: none;
+}
+
+.services_section a:hover .service {
+    background-color: #15457c;
+}
+
+.services_section a:hover .service .item {
+    color: #ffffff;
+}
+
+.services_section a:hover .service .item .icon {
+    color: #ffffff;
+}
+
+.services_section .service {
+    width: 100%;
+    height: 360px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    background-color: #fdfdfd;
+}
+
+.services_section .service .item {
+    width: 80%;
+    margin: 0 auto;
+    color: #000000;
+}
+
+.services_section .service .item h4 {
+    font-size: 28px;
+    font-weight: 300;
+    margin: 10px 0;
+}
+
+.services_section .service .item p {
+    font-weight: 100;
+    margin: 10px 0;
+}
+
+.services_section .service .item .icon .flaticon::before {
+    font-size: 48px;
+}
+
+.services_section .service .item .icon {
+    color: #15457c;
+}
