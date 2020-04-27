@@ -7,7 +7,7 @@
     width: 100%;
     background-color: #000000;;
     background: linear-gradient(to bottom,#051322,#15457c);
-    
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -148,4 +148,75 @@ section .heading p {
 
 .services_section .service .item .icon {
     color: #15457c;
+}
+
+#about_us {
+    margin: 60px 0;
+}
+
+#about_us h2 {
+	color: #15457c;
+	text-align: center;
+	font-size: 40px;
+	padding: 0px 0px 0px 400px;
+}
+
+#about_us .about_left{
+  max-width: 350px;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.2);
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#about_us .about_left ul li {
+    padding: 10px 0;
+	list-style: none;
+}
+
+#about_us .about_left ul {
+    padding: 0;
+}
+
+#about_us .about_left ul li a{
+  text-decoration: none;
+  font-size: 20px;
+  color: #000000;
+}
+
+#about_us .about_left ul li a i{
+  padding: 0px 20px 0px 0px;
+  color: #15457c;
+  font-size: 10px;
+}
+
+
+#about_us #more {
+  display: none;
+}
+#about_us .section_title {
+    font-size: 22px;
+    color: #15457c;
+}
+#about_us .about_right p{
+    padding: 20px 0;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+#about_us .section_slug {
+    font-size: 38px;
+    font-weight: 300;
+}
+
+#about_us .about_right #myBtn{
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	background-color: #15457c;
+	color: #ffffff;
+}
+#about_us .about_right #myBtn:hover {
+    box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.5);
 }
