@@ -226,3 +226,49 @@ section .heading p {
 #about_us .about_right #myBtn:hover {
     box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.5);
 }
+
+footer {
+    width: 100%;
+    background-color: #15457c;
+    min-height: 100px;
+    padding: 60px 0;
+}
+
+footer .footer_menu_link p {
+    font-size: 22px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+footer .footer_menu_link ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+footer .footer_menu_link ul li a {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 300;
+    padding: 5px 0;
+    display: block;
+}
+
+footer .footer_menu_link ul li a:hover {
+    text-decoration: none;
+}
+
+footer .footer_logo {
+    width: 100px;
+    height: auto;
+}
+
+footer .footer_logo img {
+    width: 100%;
+    height: auto;
+}
+
+footer .footer_description {
+    color: #ffffff;
+    font-weight: 300;
+}
