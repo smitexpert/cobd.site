@@ -102,7 +102,22 @@
   <section id="about_us">
     <div class="container">
       <div class="row">
-        <div class="col-md-7">
+          
+        <div class="col-md-5">
+            <div class="section_title">About Us</div>
+            <div class="section_slug">Behind the stroy of CodersBD.</div>
+          <div class="about_right">
+            <p>CodersBD is a leading Software Development Company, offering custom software development, software products, offshore software development, professional outsourcing and software consultancy.<span id="dots">...</span><span id="more">Based on our vision, we would like to be a model of excellence as an Information and Communication Technology company.
+              CodersBD is the leading digital agency of Bangladesh. They have worked with the largest clients of Bangladesh and have built leading brands in the digital space. Their strength is developing digital contents to engage with the right audience.
+              I and my management team are committed to preserving an environment where each of our associates goes through an unique experience knowing that they are respected, recognized, continuously learning, properly compensated and growing with the company. We believe and live with our company “core values” and take every business decision based on these values. Using our vision, mission and core values we are committed to delight our customers and achieve their business objectives by utilizing valuable skills of our engaged associates and create values for all of our stakeholders.</span></p>
+
+
+
+
+              <button onclick="myFunction()" id="myBtn">Read More</button>
+            </div>
+          </div>
+        <div class="col-md-7 order-sm-12">
           <div class="about_left">
             <ul>
               <li>
@@ -126,20 +141,6 @@
             </ul>
           </div>
         </div>
-        <div class="col-md-5">
-            <div class="section_title">About Us</div>
-            <div class="section_slug">Behind the stroy of CodersBD.</div>
-          <div class="about_right">
-            <p>CodersBD is a leading Software Development Company, offering custom software development, software products, offshore software development, professional outsourcing and software consultancy.<span id="dots">...</span><span id="more">Based on our vision, we would like to be a model of excellence as an Information and Communication Technology company.
-              CodersBD is the leading digital agency of Bangladesh. They have worked with the largest clients of Bangladesh and have built leading brands in the digital space. Their strength is developing digital contents to engage with the right audience.
-              I and my management team are committed to preserving an environment where each of our associates goes through an unique experience knowing that they are respected, recognized, continuously learning, properly compensated and growing with the company. We believe and live with our company “core values” and take every business decision based on these values. Using our vision, mission and core values we are committed to delight our customers and achieve their business objectives by utilizing valuable skills of our engaged associates and create values for all of our stakeholders.</span></p>
-
-
-
-
-              <button onclick="myFunction()" id="myBtn">Read more</button>
-            </div>
-          </div>
         </div>
         </div>
       </div>
@@ -159,11 +160,11 @@
 
       if (dots.style.display === "none") {
         dots.style.display = "inline";
-        btnText.innerHTML = "Read more";
+        btnText.innerHTML = "Read More";
         moreText.style.display = "none";
       } else {
         dots.style.display = "none";
-        btnText.innerHTML = "Read less";
+        btnText.innerHTML = "Read Less";
         moreText.style.display = "inline";
       }
     }
