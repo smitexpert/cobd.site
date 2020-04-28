@@ -165,7 +165,7 @@ section .heading p {
   max-width: 350px;
   height: auto;
   border-radius: 5px;
-  box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.2);
+  box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.1);
   margin: 0 auto;
   padding: 20px;
 }
@@ -224,7 +224,24 @@ section .heading p {
 	color: #ffffff;
 }
 #about_us .about_right #myBtn:hover {
-    box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.5);
+    box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.1);
+}
+
+#product {
+    margin: 90px 0;
+}
+
+#product .filter_btn {
+    width: 100%;
+    background: none;
+    border: none;
+    color: #15457c;
+    border-radius: 6px;
+    box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.1);
+    font-size: 18px;
+    padding: 10px 60px;
+    text-align: left;
+    font-weight: bold;
 }
 
 footer {
